@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Free_Moroccan_painted_table_01.jpg6CBE7CEC-36A5-4D40-9440-DC205631D3F3Zoom.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

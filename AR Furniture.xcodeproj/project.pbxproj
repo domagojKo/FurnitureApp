@@ -7,23 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C161B852595FB070048E6B7 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C161B842595FB070048E6B7 /* UIView+Extensions.swift */; };
+		9C161B8A2595FB440048E6B7 /* FurnitureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C161B892595FB440048E6B7 /* FurnitureView.swift */; };
+		9C50054C259A78F200779083 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50054B259A78F200779083 /* Furniture.swift */; };
+		9C5195A725A9E7D100598576 /* chair.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195A325A9E7D000598576 /* chair.dae */; };
+		9C5195A825A9E7D100598576 /* Chair_Diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195A425A9E7D100598576 /* Chair_Diffuse.png */; };
+		9C5195A925A9E7D100598576 /* Chair_Spec.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195A525A9E7D100598576 /* Chair_Spec.png */; };
+		9C5195AA25A9E7D100598576 /* Chair_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195A625A9E7D100598576 /* Chair_Normal.png */; };
+		9C5195AD25A9E7E600598576 /* simpleChair.scn in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195AC25A9E7E600598576 /* simpleChair.scn */; };
+		9C5195B325A9E95E00598576 /* Lamp_Spec.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195AF25A9E95D00598576 /* Lamp_Spec.png */; };
+		9C5195B425A9E95E00598576 /* lamp.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195B025A9E95D00598576 /* lamp.dae */; };
+		9C5195B525A9E95E00598576 /* Lamp_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195B125A9E95E00598576 /* Lamp_Normal.png */; };
+		9C5195B625A9E95E00598576 /* Lamp_Diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195B225A9E95E00598576 /* Lamp_Diffuse.png */; };
+		9C5195B925A9E98600598576 /* lamp.scn in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195B825A9E98600598576 /* lamp.scn */; };
+		9C5195BF25A9EA2B00598576 /* Table_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195BB25A9EA2B00598576 /* Table_Normal.png */; };
+		9C5195C025A9EA2B00598576 /* Table_Diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195BC25A9EA2B00598576 /* Table_Diffuse.png */; };
+		9C5195C125A9EA2B00598576 /* table.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195BD25A9EA2B00598576 /* table.dae */; };
+		9C5195C225A9EA2B00598576 /* Table_Spec.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195BE25A9EA2B00598576 /* Table_Spec.png */; };
+		9C5195C525A9EA3700598576 /* table.scn in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195C425A9EA3700598576 /* table.scn */; };
+		9C5195FE25AA367B00598576 /* Free_Moroccan_painted_table.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9C5195FD25AA367B00598576 /* Free_Moroccan_painted_table.dae */; };
+		9C51960125AA36A300598576 /* Painted_wood_Base_Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C51960025AA36A300598576 /* Painted_wood_Base_Color.png */; };
+		9C51960425AA36C100598576 /* moroccanTable.scn in Resources */ = {isa = PBXBuildFile; fileRef = 9C51960325AA36C100598576 /* moroccanTable.scn */; };
+		9C51960725AA375800598576 /* Table 8.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9C51960625AA375800598576 /* Table 8.dae */; };
+		9C51960A25AA376E00598576 /* Desk wood.tif in Resources */ = {isa = PBXBuildFile; fileRef = 9C51960925AA376E00598576 /* Desk wood.tif */; };
+		9C51960D25AA378F00598576 /* modernTable.scn in Resources */ = {isa = PBXBuildFile; fileRef = 9C51960C25AA378F00598576 /* modernTable.scn */; };
+		9C51961225AB59F900598576 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C51961125AB59F900598576 /* Roboto-Regular.ttf */; };
+		9C5EBD5E259262EC00BB7310 /* FurnitureBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5EBD5D259262EC00BB7310 /* FurnitureBaseVC.swift */; };
+		9C5EBD6225926DBD00BB7310 /* FurnitureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5EBD6125926DBD00BB7310 /* FurnitureViewController.swift */; };
+		9C91D5D125A63EC10071F57B /* simpleWoodenChair.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9C91D5D025A63EC10071F57B /* simpleWoodenChair.dae */; };
+		9C91D5D425A63EFE0071F57B /* Poplar_4K_Albedo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C91D5D325A63EFE0071F57B /* Poplar_4K_Albedo.jpg */; };
+		9C91D5D725A63F3C0071F57B /* simpleWoodenChair.scn in Resources */ = {isa = PBXBuildFile; fileRef = 9C91D5D625A63F3C0071F57B /* simpleWoodenChair.scn */; };
+		9CB8E0BA25A756CD000D729C /* FloorLamp.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9CB8E0B925A756CD000D729C /* FloorLamp.dae */; };
+		9CB8E0BC25A756DE000D729C /* floorLamp.scn in Resources */ = {isa = PBXBuildFile; fileRef = 9CB8E0BB25A756DE000D729C /* floorLamp.scn */; };
+		9CBE4FF725A9CD560024AAD5 /* Wooden_Chair.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9CBE4FF625A9CD560024AAD5 /* Wooden_Chair.dae */; };
+		9CBE4FF925A9CD650024AAD5 /* woodenChair.scn in Resources */ = {isa = PBXBuildFile; fileRef = 9CBE4FF825A9CD650024AAD5 /* woodenChair.scn */; };
+		9CBE4FFB25A9CD7D0024AAD5 /* wood9_DIFFUSE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CBE4FFA25A9CD7D0024AAD5 /* wood9_DIFFUSE.jpg */; };
+		9CD199ED25A9C144003667C6 /* tt.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9CD199EC25A9C144003667C6 /* tt.dae */; };
+		9CD199F025A9C159003667C6 /* tableLamp.scn in Resources */ = {isa = PBXBuildFile; fileRef = 9CD199EF25A9C159003667C6 /* tableLamp.scn */; };
+		9CFD5028259BD1200064AE4E /* Neil Woo03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD5025259BD1200064AE4E /* Neil Woo03.jpg */; };
+		9CFD5029259BD1200064AE4E /* Armchair 01.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD5026259BD1200064AE4E /* Armchair 01.dae */; };
+		9CFD502A259BD1200064AE4E /* NeilFabricPlain008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD5027259BD1200064AE4E /* NeilFabricPlain008.jpg */; };
+		9CFD502D259BD1420064AE4E /* greenChair.scn in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD502C259BD1420064AE4E /* greenChair.scn */; };
 		FF39BB82257EB09C0000A888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF39BB81257EB09C0000A888 /* AppDelegate.swift */; };
 		FF39BB84257EB09C0000A888 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FF39BB83257EB09C0000A888 /* art.scnassets */; };
-		FF39BB86257EB09C0000A888 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF39BB85257EB09C0000A888 /* ViewController.swift */; };
+		FF39BB86257EB09C0000A888 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF39BB85257EB09C0000A888 /* HomeViewController.swift */; };
 		FF39BB89257EB09C0000A888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF39BB87257EB09C0000A888 /* Main.storyboard */; };
 		FF39BB8B257EB09E0000A888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF39BB8A257EB09E0000A888 /* Assets.xcassets */; };
 		FF39BB8E257EB09E0000A888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF39BB8C257EB09E0000A888 /* LaunchScreen.storyboard */; };
+		FFFC37B125893A3C00C4DE86 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC37B025893A3C00C4DE86 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C161B842595FB070048E6B7 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		9C161B892595FB440048E6B7 /* FurnitureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureView.swift; sourceTree = "<group>"; };
+		9C50054B259A78F200779083 /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
+		9C5195A325A9E7D000598576 /* chair.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = chair.dae; sourceTree = "<group>"; };
+		9C5195A425A9E7D100598576 /* Chair_Diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chair_Diffuse.png; sourceTree = "<group>"; };
+		9C5195A525A9E7D100598576 /* Chair_Spec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chair_Spec.png; sourceTree = "<group>"; };
+		9C5195A625A9E7D100598576 /* Chair_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chair_Normal.png; sourceTree = "<group>"; };
+		9C5195AC25A9E7E600598576 /* simpleChair.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = simpleChair.scn; sourceTree = "<group>"; };
+		9C5195AF25A9E95D00598576 /* Lamp_Spec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lamp_Spec.png; sourceTree = "<group>"; };
+		9C5195B025A9E95D00598576 /* lamp.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = lamp.dae; sourceTree = "<group>"; };
+		9C5195B125A9E95E00598576 /* Lamp_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lamp_Normal.png; sourceTree = "<group>"; };
+		9C5195B225A9E95E00598576 /* Lamp_Diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lamp_Diffuse.png; sourceTree = "<group>"; };
+		9C5195B825A9E98600598576 /* lamp.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = lamp.scn; sourceTree = "<group>"; };
+		9C5195BB25A9EA2B00598576 /* Table_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Table_Normal.png; sourceTree = "<group>"; };
+		9C5195BC25A9EA2B00598576 /* Table_Diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Table_Diffuse.png; sourceTree = "<group>"; };
+		9C5195BD25A9EA2B00598576 /* table.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = table.dae; sourceTree = "<group>"; };
+		9C5195BE25A9EA2B00598576 /* Table_Spec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Table_Spec.png; sourceTree = "<group>"; };
+		9C5195C425A9EA3700598576 /* table.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = table.scn; sourceTree = "<group>"; };
+		9C5195FD25AA367B00598576 /* Free_Moroccan_painted_table.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Free_Moroccan_painted_table.dae; sourceTree = "<group>"; };
+		9C51960025AA36A300598576 /* Painted_wood_Base_Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Painted_wood_Base_Color.png; sourceTree = "<group>"; };
+		9C51960325AA36C100598576 /* moroccanTable.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = moroccanTable.scn; sourceTree = "<group>"; };
+		9C51960625AA375800598576 /* Table 8.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "Table 8.dae"; sourceTree = "<group>"; };
+		9C51960925AA376E00598576 /* Desk wood.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Desk wood.tif"; sourceTree = "<group>"; };
+		9C51960C25AA378F00598576 /* modernTable.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = modernTable.scn; sourceTree = "<group>"; };
+		9C51961125AB59F900598576 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		9C5EBD5D259262EC00BB7310 /* FurnitureBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureBaseVC.swift; sourceTree = "<group>"; };
+		9C5EBD6125926DBD00BB7310 /* FurnitureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureViewController.swift; sourceTree = "<group>"; };
+		9C91D5D025A63EC10071F57B /* simpleWoodenChair.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = simpleWoodenChair.dae; sourceTree = "<group>"; };
+		9C91D5D325A63EFE0071F57B /* Poplar_4K_Albedo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Poplar_4K_Albedo.jpg; sourceTree = "<group>"; };
+		9C91D5D625A63F3C0071F57B /* simpleWoodenChair.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = simpleWoodenChair.scn; sourceTree = "<group>"; };
+		9CB8E0B925A756CD000D729C /* FloorLamp.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = FloorLamp.dae; sourceTree = "<group>"; };
+		9CB8E0BB25A756DE000D729C /* floorLamp.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = floorLamp.scn; sourceTree = "<group>"; };
+		9CBE4FF625A9CD560024AAD5 /* Wooden_Chair.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Wooden_Chair.dae; sourceTree = "<group>"; };
+		9CBE4FF825A9CD650024AAD5 /* woodenChair.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = woodenChair.scn; sourceTree = "<group>"; };
+		9CBE4FFA25A9CD7D0024AAD5 /* wood9_DIFFUSE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood9_DIFFUSE.jpg; sourceTree = "<group>"; };
+		9CD199EC25A9C144003667C6 /* tt.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = tt.dae; sourceTree = "<group>"; };
+		9CD199EF25A9C159003667C6 /* tableLamp.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = tableLamp.scn; sourceTree = "<group>"; };
+		9CFD5025259BD1200064AE4E /* Neil Woo03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Neil Woo03.jpg"; sourceTree = "<group>"; };
+		9CFD5026259BD1200064AE4E /* Armchair 01.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "Armchair 01.dae"; sourceTree = "<group>"; };
+		9CFD5027259BD1200064AE4E /* NeilFabricPlain008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NeilFabricPlain008.jpg; sourceTree = "<group>"; };
+		9CFD502C259BD1420064AE4E /* greenChair.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = greenChair.scn; sourceTree = "<group>"; };
 		FF39BB7E257EB09C0000A888 /* AR Furniture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Furniture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF39BB81257EB09C0000A888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF39BB83257EB09C0000A888 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		FF39BB85257EB09C0000A888 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF39BB85257EB09C0000A888 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FF39BB88257EB09C0000A888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF39BB8A257EB09E0000A888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF39BB8D257EB09E0000A888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF39BB8F257EB09E0000A888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFC37AE25893A3B00C4DE86 /* AR Furniture-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AR Furniture-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFFC37AF25893A3C00C4DE86 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FFFC37B025893A3C00C4DE86 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +123,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C161B812595FAB80048E6B7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C51962A25AB791C00598576 /* HomeVC */,
+				9C161B822595FAC80048E6B7 /* FurnitureVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9C161B822595FAC80048E6B7 /* FurnitureVC */ = {
+			isa = PBXGroup;
+			children = (
+				9C5EBD6125926DBD00BB7310 /* FurnitureViewController.swift */,
+				9C161B892595FB440048E6B7 /* FurnitureView.swift */,
+			);
+			path = FurnitureVC;
+			sourceTree = "<group>";
+		};
+		9C161B832595FAE40048E6B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C161B842595FB070048E6B7 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9C50054A259A78CE00779083 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C50054B259A78F200779083 /* Furniture.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C51961025AB59C700598576 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9C51961125AB59F900598576 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9C51962A25AB791C00598576 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				FF39BB85257EB09C0000A888 /* HomeViewController.swift */,
+				FF39BB87257EB09C0000A888 /* Main.storyboard */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
 		FF39BB75257EB09B0000A888 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +193,64 @@
 		FF39BB80257EB09C0000A888 /* AR Furniture */ = {
 			isa = PBXGroup;
 			children = (
+				9C51961025AB59C700598576 /* Fonts */,
+				9C50054A259A78CE00779083 /* Model */,
+				9C161B832595FAE40048E6B7 /* Extensions */,
+				9C161B812595FAB80048E6B7 /* ViewControllers */,
+				FFFC37AD25893A2500C4DE86 /* MBProgressHUD */,
 				FF39BB81257EB09C0000A888 /* AppDelegate.swift */,
+				9C5EBD5D259262EC00BB7310 /* FurnitureBaseVC.swift */,
 				FF39BB83257EB09C0000A888 /* art.scnassets */,
-				FF39BB85257EB09C0000A888 /* ViewController.swift */,
-				FF39BB87257EB09C0000A888 /* Main.storyboard */,
 				FF39BB8A257EB09E0000A888 /* Assets.xcassets */,
+				9C51960925AA376E00598576 /* Desk wood.tif */,
+				9C51960625AA375800598576 /* Table 8.dae */,
+				9C51960C25AA378F00598576 /* modernTable.scn */,
+				9C51960025AA36A300598576 /* Painted_wood_Base_Color.png */,
+				9C5195FD25AA367B00598576 /* Free_Moroccan_painted_table.dae */,
+				9C51960325AA36C100598576 /* moroccanTable.scn */,
 				FF39BB8C257EB09E0000A888 /* LaunchScreen.storyboard */,
+				9CFD502C259BD1420064AE4E /* greenChair.scn */,
+				9CFD5026259BD1200064AE4E /* Armchair 01.dae */,
+				9CFD5025259BD1200064AE4E /* Neil Woo03.jpg */,
+				9CFD5027259BD1200064AE4E /* NeilFabricPlain008.jpg */,
+				9C91D5D025A63EC10071F57B /* simpleWoodenChair.dae */,
+				9CBE4FF625A9CD560024AAD5 /* Wooden_Chair.dae */,
+				9CBE4FF825A9CD650024AAD5 /* woodenChair.scn */,
+				9CBE4FFA25A9CD7D0024AAD5 /* wood9_DIFFUSE.jpg */,
+				9CB8E0B925A756CD000D729C /* FloorLamp.dae */,
+				9CD199EC25A9C144003667C6 /* tt.dae */,
+				9C5195BC25A9EA2B00598576 /* Table_Diffuse.png */,
+				9C5195BB25A9EA2B00598576 /* Table_Normal.png */,
+				9C5195BE25A9EA2B00598576 /* Table_Spec.png */,
+				9C5195BD25A9EA2B00598576 /* table.dae */,
+				9C5195C425A9EA3700598576 /* table.scn */,
+				9CD199EF25A9C159003667C6 /* tableLamp.scn */,
+				9CB8E0BB25A756DE000D729C /* floorLamp.scn */,
+				9C91D5D625A63F3C0071F57B /* simpleWoodenChair.scn */,
+				9C91D5D325A63EFE0071F57B /* Poplar_4K_Albedo.jpg */,
+				9C5195A425A9E7D100598576 /* Chair_Diffuse.png */,
+				9C5195A625A9E7D100598576 /* Chair_Normal.png */,
+				9C5195A525A9E7D100598576 /* Chair_Spec.png */,
+				9C5195A325A9E7D000598576 /* chair.dae */,
+				9C5195AC25A9E7E600598576 /* simpleChair.scn */,
+				9C5195B225A9E95E00598576 /* Lamp_Diffuse.png */,
+				9C5195B125A9E95E00598576 /* Lamp_Normal.png */,
+				9C5195AF25A9E95D00598576 /* Lamp_Spec.png */,
+				9C5195B025A9E95D00598576 /* lamp.dae */,
+				9C5195B825A9E98600598576 /* lamp.scn */,
 				FF39BB8F257EB09E0000A888 /* Info.plist */,
 			);
 			path = "AR Furniture";
+			sourceTree = "<group>";
+		};
+		FFFC37AD25893A2500C4DE86 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FFFC37AF25893A3C00C4DE86 /* MBProgressHUD.h */,
+				FFFC37B025893A3C00C4DE86 /* MBProgressHUD.m */,
+				FFFC37AE25893A3B00C4DE86 /* AR Furniture-Bridging-Header.h */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +284,7 @@
 				TargetAttributes = {
 					FF39BB7D257EB09B0000A888 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -124,10 +311,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C5195A925A9E7D100598576 /* Chair_Spec.png in Resources */,
+				9C5195BF25A9EA2B00598576 /* Table_Normal.png in Resources */,
+				9C91D5D725A63F3C0071F57B /* simpleWoodenChair.scn in Resources */,
+				9CFD502D259BD1420064AE4E /* greenChair.scn in Resources */,
+				9CBE4FF725A9CD560024AAD5 /* Wooden_Chair.dae in Resources */,
+				9CBE4FFB25A9CD7D0024AAD5 /* wood9_DIFFUSE.jpg in Resources */,
+				9C51960D25AA378F00598576 /* modernTable.scn in Resources */,
+				9C5195A725A9E7D100598576 /* chair.dae in Resources */,
+				9CB8E0BA25A756CD000D729C /* FloorLamp.dae in Resources */,
+				9C5195C025A9EA2B00598576 /* Table_Diffuse.png in Resources */,
+				9C5195C525A9EA3700598576 /* table.scn in Resources */,
+				9C5195C125A9EA2B00598576 /* table.dae in Resources */,
+				9C5195AA25A9E7D100598576 /* Chair_Normal.png in Resources */,
+				9C51960A25AA376E00598576 /* Desk wood.tif in Resources */,
+				9CD199F025A9C159003667C6 /* tableLamp.scn in Resources */,
+				9C5195AD25A9E7E600598576 /* simpleChair.scn in Resources */,
+				9C51961225AB59F900598576 /* Roboto-Regular.ttf in Resources */,
+				9C5195B525A9E95E00598576 /* Lamp_Normal.png in Resources */,
+				9C5195FE25AA367B00598576 /* Free_Moroccan_painted_table.dae in Resources */,
+				9CBE4FF925A9CD650024AAD5 /* woodenChair.scn in Resources */,
+				9C5195B925A9E98600598576 /* lamp.scn in Resources */,
 				FF39BB84257EB09C0000A888 /* art.scnassets in Resources */,
+				9C5195C225A9EA2B00598576 /* Table_Spec.png in Resources */,
+				9C5195A825A9E7D100598576 /* Chair_Diffuse.png in Resources */,
+				9CFD5028259BD1200064AE4E /* Neil Woo03.jpg in Resources */,
+				9C5195B325A9E95E00598576 /* Lamp_Spec.png in Resources */,
+				9C91D5D425A63EFE0071F57B /* Poplar_4K_Albedo.jpg in Resources */,
+				9C5195B625A9E95E00598576 /* Lamp_Diffuse.png in Resources */,
+				9C51960725AA375800598576 /* Table 8.dae in Resources */,
+				9CB8E0BC25A756DE000D729C /* floorLamp.scn in Resources */,
+				9C5195B425A9E95E00598576 /* lamp.dae in Resources */,
+				9C51960125AA36A300598576 /* Painted_wood_Base_Color.png in Resources */,
+				9C91D5D125A63EC10071F57B /* simpleWoodenChair.dae in Resources */,
+				9CFD502A259BD1200064AE4E /* NeilFabricPlain008.jpg in Resources */,
 				FF39BB8E257EB09E0000A888 /* LaunchScreen.storyboard in Resources */,
 				FF39BB8B257EB09E0000A888 /* Assets.xcassets in Resources */,
 				FF39BB89257EB09C0000A888 /* Main.storyboard in Resources */,
+				9CD199ED25A9C144003667C6 /* tt.dae in Resources */,
+				9CFD5029259BD1200064AE4E /* Armchair 01.dae in Resources */,
+				9C51960425AA36C100598576 /* moroccanTable.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +361,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF39BB86257EB09C0000A888 /* ViewController.swift in Sources */,
+				9C161B852595FB070048E6B7 /* UIView+Extensions.swift in Sources */,
+				9C161B8A2595FB440048E6B7 /* FurnitureView.swift in Sources */,
+				9C5EBD5E259262EC00BB7310 /* FurnitureBaseVC.swift in Sources */,
+				9C5EBD6225926DBD00BB7310 /* FurnitureViewController.swift in Sources */,
+				FF39BB86257EB09C0000A888 /* HomeViewController.swift in Sources */,
+				FFFC37B125893A3C00C4DE86 /* MBProgressHUD.m in Sources */,
+				9C50054C259A78F200779083 /* Furniture.swift in Sources */,
 				FF39BB82257EB09C0000A888 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,15 +515,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2DCUJ345U;
+				DEVELOPMENT_TEAM = 7469ZTA6YS;
 				INFOPLIST_FILE = "AR Furniture/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "domagojTVZ.AR-Furniture";
+				PRODUCT_BUNDLE_IDENTIFIER = "domagojTVZ.AR-Furnituree";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AR Furniture/MBProgressHUD/AR Furniture-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,15 +538,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2DCUJ345U;
+				DEVELOPMENT_TEAM = 7469ZTA6YS;
 				INFOPLIST_FILE = "AR Furniture/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "domagojTVZ.AR-Furniture";
+				PRODUCT_BUNDLE_IDENTIFIER = "domagojTVZ.AR-Furnituree";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AR Furniture/MBProgressHUD/AR Furniture-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
